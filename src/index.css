@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%
+}
+
+.app {
+    min-height: 100vh;
+    background-image: linear-gradient(120deg, #f953c6 0%, #b91d73 100%);
+}
+
+/* Header.js -----------------------------------------begin*/
+.Header {
+    min-height: 10vh;
+    font-family: 'Beau Rivage', cursive;
+}
+
+.Header>.title {
+    display: flex;
+    justify-content: flex-end;
+    padding: .5rem 1rem 2rem 0rem;
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+}
+
+/* Header.js -----------------------------------------end*/
+
+
+/* Plants.js -----------------------------------------begin*/
+.plants {
+    min-height: 85vh;
+}
+
+.plants h1 {
+    margin-left: 1rem;
+    color: white;
+    font-family: 'Pacifico', cursive;
+}
+
+.zouhour-collection,
+.tree-collection {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem;
+}
+
+
+.zouhour-collection .flower,
+.tree-collection .tree {
+    margin: 1rem;
+    width: 9.5rem;
+    height: auto;
+    border-radius: 1rem;
+
+
+}
+
+/* Plants.js -----------------------------------------end*/
+
+/* Footer.js -----------------------------------------begin*/
+.footer-container {
+    background-image: linear-gradient(120deg, #f2c9e5 0%, #c26b9b 100%);
+    min-height: 5vh;
+    color: #a00159;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 2rem;
+}
+
+footer {
+    margin-left: 2rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+footer p {
+    margin-left: .5rem;
+}
+
+/* Footer.js -----------------------------------------end*/
